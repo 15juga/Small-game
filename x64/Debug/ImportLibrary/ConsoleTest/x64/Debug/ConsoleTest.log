@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1947,5): warning : The referenced project '..\ImportLibrary\ImportLibrary.vcxproj' does not exist.
+  Main.cpp
+  ConsoleTest.vcxproj -> C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\ImportLibrary\x64\Debug\ConsoleTest.exe
