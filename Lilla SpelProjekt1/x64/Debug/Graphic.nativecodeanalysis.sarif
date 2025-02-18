@@ -1,0 +1,1326 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'DirectX::WIC_LOADER_FLAGS' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/packages/directxtk_desktop_2017.2021.1.10.1/include/WICTextureLoader.h"
+                },
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 5,
+                  "endLine": 164,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UDirectX@@YA?AW4WIC_LOADER_FLAGS@0@W410@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MouseInput::mouseState' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/MouseInput.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MouseInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "MouseInput::mouseState"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MouseInput::mouseX' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/MouseInput.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MouseInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "MouseInput::mouseX"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MouseInput::mouseY' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/MouseInput.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MouseInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "MouseInput::mouseY"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MouseInput::screenWidth' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/MouseInput.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MouseInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "MouseInput::screenWidth"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'MouseInput::screenHeight' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/MouseInput.h"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 2,
+                  "endLine": 33,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0MouseInput@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "MouseInput::screenHeight"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'DirectX::AUDIO_ENGINE_FLAGS' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/packages/directxtk_desktop_2017.2021.1.10.1/include/Audio.h"
+                },
+                "region": {
+                  "startLine": 748,
+                  "startColumn": 5,
+                  "endLine": 748,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UDirectX@@YA?AW4AUDIO_ENGINE_FLAGS@0@W410@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'DirectX::SOUND_EFFECT_INSTANCE_FLAGS' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/packages/directxtk_desktop_2017.2021.1.10.1/include/Audio.h"
+                },
+                "region": {
+                  "startLine": 749,
+                  "startColumn": 5,
+                  "endLine": 749,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??UDirectX@@YA?AW4SOUND_EFFECT_INSTANCE_FLAGS@0@W410@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::device' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::device"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::textureSRV' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::textureSRV"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::vertexCount' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::vertexCount"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::deviceContext' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::deviceContext"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::factory' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::factory"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::RTD' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::RTD"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::SBrush' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::SBrush"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::d2Device' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::d2Device"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::d2Context' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::d2Context"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::swapchain' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::swapchain"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::rtv' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::rtv"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::inputLayout' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::inputLayout"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::sampler' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::sampler"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::viewport' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::viewport"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::viewport2' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::viewport2"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::normalViewport' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::normalViewport"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::rState' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::rState"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Graphic::rect' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 2,
+                  "endLine": 74,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Graphic@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "Graphic::rect"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'constantBuffer<DirectionalLight>::cBuffer' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/ConstantBuffer.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 2,
+                  "endLine": 14,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$constantBuffer@UDirectionalLight@@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "constantBuffer<DirectionalLight>::cBuffer"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'constantBuffer<WVPMatrix>::cBuffer' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/ConstantBuffer.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 2,
+                  "endLine": 14,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$constantBuffer@UWVPMatrix@@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "constantBuffer<WVPMatrix>::cBuffer"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'constantBuffer<MatrixVertex>::cBuffer' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/ConstantBuffer.h"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 2,
+                  "endLine": 14,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$constantBuffer@UMatrixVertex@@@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "constantBuffer<MatrixVertex>::cBuffer"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29914.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0064B1C0 -il C:\\Users\\15juga\\AppData\\Local\\Temp\\_CL_3912a466ast -typedil -f Graphic.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829914 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Users\\15juga\\Documents\\GitHub\\Lilla-SpelProjekt1\\packages\\directxtk_desktop_2017.2021.1.10.1\\include -I C:\\Users\\15juga\\Documents\\GitHub\\Lilla-SpelProjekt1\\packages\\Microsoft.XAudio2.Redist.1.2.4\\build\\native\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DHAS_DIRECTXTK -DUSING_XAUDIO2_REDIST -DCODE_ANALYSIS -D_DEBUG -D_WINDOWS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -Fox64\\Debug\\Graphic.obj -Fdx64\\Debug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\15juga\\Documents\\GitHub\\Lilla-SpelProjekt1\\Lilla SpelProjekt1 -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Users\\15juga\\Documents\\GitHub\\Lilla-SpelProjekt1\\Lilla SpelProjekt1\\ImportLibrary\\ImportLib -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\15juga\\Documents\\GitHub\\Lilla-SpelProjekt1\\Lilla SpelProjekt1\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/packages/directxtk_desktop_2017.2021.1.10.1/include/WICTextureLoader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "6df998c157151074b5abc0edac47824d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/MouseInput.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "27c1c869fda50c2dce7dac0e4706c915"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/packages/directxtk_desktop_2017.2021.1.10.1/include/Audio.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ba8c8f5edc79b0d5f5a3cc8a88da6b43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/Graphic.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "292476c3c75663e20dbace17998e785a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/15juga/Documents/GitHub/Lilla-SpelProjekt1/Lilla SpelProjekt1/ConstantBuffer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "37591693a82baa4a6c92349bba4006ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/graphic.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "88cf867a482ecab71a3f89b57e4d235f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/depthstencil.h"
+          },
+          "hashes": {
+            "md5": "0f1970317d159b773aebfa5c2872e4a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/errorlogger.h"
+          },
+          "hashes": {
+            "md5": "b28690677dce0d5433d103d5933c2698"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/stringconverter.h"
+          },
+          "hashes": {
+            "md5": "1cd6da9b0a31fc51484dc3929e9bcf08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/lightsystem.h"
+          },
+          "hashes": {
+            "md5": "579b3e6877eee8483a1388e46cebafa2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/rendertarget.h"
+          },
+          "hashes": {
+            "md5": "a0313ccb21a8dbd591ae0ac1c8263b29"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/inputlayout.h"
+          },
+          "hashes": {
+            "md5": "bb4e20ee1718398b36ad0a8db7e77b89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/allshader.h"
+          },
+          "hashes": {
+            "md5": "1cc453878a375e8c8ad9f063bf73f4f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/scenemanager.h"
+          },
+          "hashes": {
+            "md5": "d05db3acb969b192f8ffbc30677f52a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/scn_gameover.h"
+          },
+          "hashes": {
+            "md5": "b4e1d8249d34725f1676125964280978"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/sceneclass.h"
+          },
+          "hashes": {
+            "md5": "d6eb1ba634a1cebbff830afcbe790e3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/player.h"
+          },
+          "hashes": {
+            "md5": "a36297a2045599646cd4b5a4d8c57230"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/gameobject.h"
+          },
+          "hashes": {
+            "md5": "0244361072ae357a645233de924ac6a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/mesh.h"
+          },
+          "hashes": {
+            "md5": "616d02fb5dffa47bd59dbf03170cf873"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/vertexbuffer.h"
+          },
+          "hashes": {
+            "md5": "d8b7eeb00a467c226a78e50bbccf4750"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/importlibrary/importlib/reader.h"
+          },
+          "hashes": {
+            "md5": "0a59fb89a5e4773936218865a6c958a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/importlibrary/importlib/data.h"
+          },
+          "hashes": {
+            "md5": "83bf6316217a2bf97b8b9bd0e68138f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/importlibrary/importlib/inc.h"
+          },
+          "hashes": {
+            "md5": "4f923eb02ddf0ddf66362f1cc017599e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/directxtk_desktop_2017.2021.1.10.1/include/simplemath.h"
+          },
+          "hashes": {
+            "md5": "c9c85cf57263ce4f60b74fbb0b89095f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/directxtk_desktop_2017.2021.1.10.1/include/simplemath.inl"
+          },
+          "hashes": {
+            "md5": "e92045a01e5fec6e5f90978800a29f8d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/matrixvertex.h"
+          },
+          "hashes": {
+            "md5": "92dd63a7a710d65df6ae09e71d585bd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/texturet.h"
+          },
+          "hashes": {
+            "md5": "de7cc9e1cc6420f8223fe0eb2300f7df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/colour.h"
+          },
+          "hashes": {
+            "md5": "fa5f25f3ad25ed25aafcaccf5fc94314"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/transform.h"
+          },
+          "hashes": {
+            "md5": "7d88085a5313aad855d3c4e9f2ae5a10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/collisiontest.h"
+          },
+          "hashes": {
+            "md5": "1458f36a258cf56f837d7b68c9bfb98a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/item.h"
+          },
+          "hashes": {
+            "md5": "dc35bf0f19958d25b77b2a28db004b4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/camera.h"
+          },
+          "hashes": {
+            "md5": "671fa32e908fc10ab9d9ae11a3b8e033"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/input.h"
+          },
+          "hashes": {
+            "md5": "c9a46d149b51c25567d98c14edea3f8a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/userinterface.h"
+          },
+          "hashes": {
+            "md5": "3f58749ac1ebe027e35d11f1d05dd193"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/staticgameobject.h"
+          },
+          "hashes": {
+            "md5": "ece116096783c6f945ebe04b0947ae37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/aienemyturret.h"
+          },
+          "hashes": {
+            "md5": "7013bcf57bc5cc1db485666bb6cadd29"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/projectile.h"
+          },
+          "hashes": {
+            "md5": "ca22ecf4ef319905a5ef49f3968fc3ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/collisionmanager.h"
+          },
+          "hashes": {
+            "md5": "306d2a2aca0499b290df76ee1a4b4f0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/scoresystem.h"
+          },
+          "hashes": {
+            "md5": "781b6915cf64d6a5d45cca1bf8f90205"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/microsoft.xaudio2.redist.1.2.4/build/native/include/xaudio2.h"
+          },
+          "hashes": {
+            "md5": "a42073d8fa435d6857c440140b644547"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/microsoft.xaudio2.redist.1.2.4/build/native/include/xaudio2redist.h"
+          },
+          "hashes": {
+            "md5": "fc51541bca8ad22c18d55328018ea692"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/microsoft.xaudio2.redist.1.2.4/build/native/include/xaudio2fx.h"
+          },
+          "hashes": {
+            "md5": "16cca8c6dc623e202501b5739a1240d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/microsoft.xaudio2.redist.1.2.4/build/native/include/xaudio2fxredist.h"
+          },
+          "hashes": {
+            "md5": "58c83c8f6bfd48c1db065dfec2c6adc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/microsoft.xaudio2.redist.1.2.4/build/native/include/x3daudio.h"
+          },
+          "hashes": {
+            "md5": "3731188bdffe316f2f271dba680fb0cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/microsoft.xaudio2.redist.1.2.4/build/native/include/x3daudioredist.h"
+          },
+          "hashes": {
+            "md5": "ebb9d9f0aee03f580712e5f69cc21d5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/microsoft.xaudio2.redist.1.2.4/build/native/include/xapofx.h"
+          },
+          "hashes": {
+            "md5": "d11658d237aa2236e16d43bf2af51310"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/packages/microsoft.xaudio2.redist.1.2.4/build/native/include/xapofxredist.h"
+          },
+          "hashes": {
+            "md5": "7466d6012fd9c3ac6040441ebb2d812d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/scn_level.h"
+          },
+          "hashes": {
+            "md5": "f2b703a38eece60d4e2d9b7cef261e2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/15juga/documents/github/lilla-spelprojekt1/lilla spelprojekt1/scn_menu.h"
+          },
+          "hashes": {
+            "md5": "d1fcf67f4050f669869ebc92d8f60bdf"
+          }
+        }
+      ]
+    }
+  ]
+}

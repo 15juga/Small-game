@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\x64\Debug\Lilla SpelProjekt1.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\x64\Debug\PixelShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\x64\Debug\VertexShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\x64\Debug\ShadowVertexShader.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
