@@ -1,0 +1,44 @@
+﻿  Camera.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\MouseInput.h(11,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  DepthStencil.cpp
+  Engine.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\MouseInput.h(11,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  ErrorLogger.cpp
+  Input.cpp
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\Input.cpp(31,13): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\Input.cpp(32,13): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\Input.cpp(104,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\Input.cpp(104,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Main.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\MouseInput.h(11,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Graphic.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\MouseInput.h(11,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Mesh.cpp
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\Mesh.cpp(77,20): warning C4018: '<': signed/unsigned mismatch
+  MouseInput.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\MouseInput.h(11,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\MouseInput.cpp(100,33): warning C4244: '+=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\MouseInput.cpp(101,32): warning C4244: '+=': conversion from 'float' to 'LONG', possible loss of data
+  RenderTarget.cpp
+  RenderWindow.cpp
+  StringConverter.cpp
+  Transform.cpp
+  WindowContainer.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\MouseInput.h(11,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\WindowContainer.cpp(34,58): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\WindowContainer.cpp(35,58): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+  Generating Code...
+C:\Users\15juga\Documents\GitHub\Lilla-SpelProjekt1\Lilla SpelProjekt1\Mesh.cpp(115): warning C4172: returning address of local variable or temporary
+  Lilla SpelProjekt1.vcxproj -> C:\Users\15juga\Documents\GitHub\ImportLibrary\Debug\Lilla SpelProjekt1.exe
